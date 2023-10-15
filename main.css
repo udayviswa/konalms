@@ -2,11 +2,42 @@
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#logo {
+  font-size: 50px;
+}
+
+
+.navbar li {
+  display: inline;
+  padding: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#button {
+  text-decoration: none;
+  background-color: crimson;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+/* 
 .nav {
     overflow: hidden;
     background-color: white;
-    display:flex;
-    /* justify-content: space-evenly; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 div a {
@@ -16,7 +47,7 @@ div a {
     margin: 10px;
     font-size: 20px;
     padding: 12px 16px;
-    /* font-family: 'Caros Bold'; */
+    font-family: 'Caros Bold';
 }
 
 .navbutton {
@@ -25,7 +56,7 @@ div a {
     background-color: crimson;
     color: white;
     float: right;
-    /* margin-right: 100px; */
+    margin-right: 100px;
     width: 150px;
     text-align: center;
     height:fit-content;
@@ -41,7 +72,7 @@ div a {
     float: left;
 }
 
-/* drop down css  */
+drop down css 
 
 .dropdown {
     float: right;
@@ -60,10 +91,7 @@ div a {
     margin: 10px;
   }
   
-  /* .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: crimson;
-    color: white;
-  } */
+
   
   .dropdown-content {
     display: none;
@@ -91,4 +119,4 @@ div a {
   }
   
   .dropdown:hover .dropdown-content {
-    display: block; }
+    display: block; } */
