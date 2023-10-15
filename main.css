@@ -1,0 +1,94 @@
+* {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav {
+    overflow: hidden;
+    background-color: white;
+    display:flex;
+    /* justify-content: space-evenly; */
+}
+
+div a {
+    float: none;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    padding: 12px 16px;
+    /* font-family: 'Caros Bold'; */
+}
+
+.navbutton {
+    border: 2px solid crimson;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    float: right;
+    /* margin-right: 100px; */
+    width: 150px;
+    text-align: center;
+    height:fit-content;
+}
+.kona {
+    font-size: 40px;
+    color: crimson;
+    font-weight: 900;
+    margin: 10px 50px;
+}
+
+.logo {
+    float: left;
+}
+
+/* drop down css  */
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 10px;
+  }
+  
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: crimson;
+    color: white;
+  } */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: crimson;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; }
